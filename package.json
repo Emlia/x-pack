@@ -1,0 +1,26 @@
+{
+  "name": "x-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:react": "cd x-react && npm start",
+    "dev:angular": "cd x-angular && npm start",
+    "dev:vue": "cd x-vue && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emlia/x-pack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emlia/x-pack/issues"
+  },
+  "homepage": "https://github.com/Emlia/x-pack#readme",
+  "devDependencies": {
+    "shelljs": "^0.8.5"
+  }
+}
